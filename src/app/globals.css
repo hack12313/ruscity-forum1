@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a3e;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a5e;
+}
+
+.prose-dark {
+  color: #d1d5db;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
